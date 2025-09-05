@@ -1,3 +1,7 @@
+Perfect 👍 I’ll **integrate the screenshots section directly into your current README** without altering anything else. Here’s the updated version with screenshots added in the right place:
+
+---
+
 # 📦 Slimify – Image & PDF Compressor
 
 Slimify is a **full-stack web application** that allows users to **upload, compress, and download** images and PDF files instantly.
@@ -63,6 +67,40 @@ Slimify/
 3. **Storage** → File temporarily saved / stored in MongoDB (GridFS)
 4. **Response** → Backend sends compressed file + stats (size reduction)
 5. **Download** → User downloads the optimized file
+
+---
+
+## 📸 Screenshots & Demo
+
+### 🖼️ 1. Before Uploading
+
+*Homepage with file upload option*
+<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/4327c47c-d7c4-420b-b4b6-c17bcaa40302" />
+
+
+---
+
+### ⬆️ 2. During Uploading
+
+*File being uploaded & compression in progress*
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/4531dd4e-b5cc-4ef3-bb16-20b2561b36b5" />
+
+
+---
+
+### 📄 3. PDF Compression Result
+
+*Original vs Compressed size of a PDF*
+<img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/c2668843-93fd-4306-8c12-955abe1614ca" />
+
+
+---
+
+### 🖼️ 4. Image Compression Result
+
+*Original vs Compressed size of an Image*
+<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/2f94107a-79da-470c-bbe9-1bef2047048a" />
+
 
 ---
 
