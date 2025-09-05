@@ -149,7 +149,7 @@ function App() {
                   <td>{formatSize(f.compressedSize)}</td>
                   <td>{f.reductionPercent.toFixed(2)}%</td>
                   <td>
-                    <a href={`${backendUrl}/uploads/${f.compressedName}`} target="_blank" rel="noreferrer">
+                    <a href={`${backendUrl}/download/${f.compressedFileId}`} target="_blank" rel="noreferrer">
                       ⬇️
                     </a>
                   </td>
