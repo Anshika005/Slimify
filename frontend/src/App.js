@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [allFiles, setAllFiles] = useState([]);
 
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://amusing-purpose-production.up.railway.app/";
 
   const fetchFiles = async () => {
     try {
