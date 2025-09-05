@@ -232,6 +232,16 @@ app.delete("/files/:id", async (req, res) => {
     res.status(500).json({ error: "Delete failed", details: error.message });
   }
 });
+// ghostscript debug
+app.get("/check-gs", (req, res) => {
+  const { exec } = require("child_process");
+  exec("gs --version", (error, stdout, stderr) => {
+    if (error) {
+      return res.status(500).send("❌ Ghostscript not found: " + error.message);
+    }
+    res.send("✅ Ghostscript version: " + stdout);
+  });
+});
 
 // ---- MongoDB Connection ----
 mongoose
