@@ -241,7 +241,7 @@ mongoose
     console.log("✅ MongoDB connected");
     bucket = new GridFSBucket(mongoose.connection.db, { bucketName: "uploads" });
     app.listen(PORT, () =>
-      console.log(`🚀 Server running on http://localhost:${PORT}`)
+      console.log(`🚀 Server running on ${PORT}`)
     );
   })
   .catch((err) => console.error("❌ MongoDB connection error:", err));
