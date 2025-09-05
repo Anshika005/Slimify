@@ -10,6 +10,8 @@ const { Readable } = require("stream");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const DOMAIN = process.env.DOMAIN || `http://localhost:${PORT}`;
+
 
 app.use(cors());
 app.use(express.json());
