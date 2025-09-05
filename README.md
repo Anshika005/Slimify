@@ -1,7 +1,3 @@
-Perfect 👍 I’ll **integrate the screenshots section directly into your current README** without altering anything else. Here’s the updated version with screenshots added in the right place:
-
----
-
 # 📦 Slimify – Image & PDF Compressor
 
 Slimify is a **full-stack web application** that allows users to **upload, compress, and download** images and PDF files instantly.
