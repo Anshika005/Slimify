@@ -74,7 +74,6 @@ Slimify/
 
 ### 🖼️ 1. Before Uploading
 
-*Homepage with file upload option*
 <img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/4327c47c-d7c4-420b-b4b6-c17bcaa40302" />
 
 
@@ -82,7 +81,6 @@ Slimify/
 
 ### ⬆️ 2. During Uploading
 
-*File being uploaded & compression in progress*
 <img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/4531dd4e-b5cc-4ef3-bb16-20b2561b36b5" />
 
 
@@ -90,7 +88,6 @@ Slimify/
 
 ### 📄 3. PDF Compression Result
 
-*Original vs Compressed size of a PDF*
 <img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/c2668843-93fd-4306-8c12-955abe1614ca" />
 
 
@@ -98,7 +95,6 @@ Slimify/
 
 ### 🖼️ 4. Image Compression Result
 
-*Original vs Compressed size of an Image*
 <img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/2f94107a-79da-470c-bbe9-1bef2047048a" />
 
 
