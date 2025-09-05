@@ -164,7 +164,7 @@ app.post("/upload", upload.single("file"), async (req, res) => {
       compressedSize: Number(compressedSize),
       reductionPercent: Number(reductionPercent),
       fileId: fileId.toString(),
-      downloadUrl: `http://localhost:${PORT}/download/${fileId}`,
+      downloadUrl: `${DOMAIN}/download/${fileId}`,
     });
   } catch (error) {
     console.error(error);
@@ -206,7 +206,7 @@ app.get("/files", async (req, res) => {
       originalSize: Number(file.originalSize),
       compressedSize: Number(file.compressedSize),
       reductionPercent: Number(file.reductionPercent),
-      downloadUrl: `http://localhost:${PORT}/download/${file.compressedFileId}`,
+      downloadUrl: `${DOMAIN}/download/${file.compressedFileId}`,
     }));
     res.json(filesWithUrls);
   } catch (err) {
