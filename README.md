@@ -12,7 +12,7 @@ Built with the **MERN stack**, it ensures fast processing, efficient storage, an
 
 * 📤 Upload **images (JPG/PNG)** or **PDF files**
 * 🔄 Automatic compression with **Ghostscript (PDF)** & **Sharp (Images)**
-* 📊 Shows **original size, compressed size, and % reduction**
+* 📊 Shows **original size, compressed size, and % reduction** 
 * 💾 Download compressed files instantly
 * 📜 History of previously uploaded files
 * ☁️ **Deployed on Vercel (Frontend)** + **Railway (Backend)**
